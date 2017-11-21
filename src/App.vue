@@ -4,7 +4,10 @@
     <div class="echarts-container">
       <ul>
         <li>
-          <router-link to='/page1' tag='a'>page1</router-link>
+          <router-link to='/' tag='a'>饼图</router-link>
+        </li>
+        <li>
+          <router-link to='/line' tag='a'>折线图</router-link>
         </li>
       </ul>
     </div>
@@ -26,5 +29,24 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.echarts-container {
+
+}
+.echarts-container ul {
+  width: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+}
+.echarts-container ul li {
+  width: auto;
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+}
+.echarts-container ul li a {
+  color: #333;
+  text-decoration: none;
 }
 </style>
