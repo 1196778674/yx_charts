@@ -1,6 +1,13 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
+    <div class="echarts-container">
+      <ul>
+        <li>
+          <router-link to='/page1' tag='a'>page1</router-link>
+        </li>
+      </ul>
+    </div>
     <router-view/>
   </div>
 </template>
